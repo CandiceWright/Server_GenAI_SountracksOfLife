@@ -70,7 +70,3 @@ jobs:
           app-name: 'my-sound-app'
           slot-name: 'Production'
           package: .
-
-      - name: Start Server
-        run: |
-          node index.js
