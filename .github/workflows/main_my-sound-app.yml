@@ -25,7 +25,7 @@ jobs:
         run: |
           npm install
           npm run build --if-present
-          npm run test --if-present'
+          npm run test --if-present
         env:
           DEBUG: true
 
@@ -70,4 +70,3 @@ jobs:
           app-name: 'my-sound-app'
           slot-name: 'Production'
           package: .
-          
